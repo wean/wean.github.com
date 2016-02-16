@@ -6,26 +6,6 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://wean.github.io/categories/blog.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://wean.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://wean.github.io/categories/demo.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://wean.github.io/categories/nikola.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://wean.github.io/categories/python.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://wean.github.io/galleries/demo/rss.xml</loc>
   <lastmod>2016-02-02T07:39:00Z</lastmod>
  </sitemap>
@@ -35,10 +15,10 @@
  </sitemap>
  <sitemap>
   <loc>https://wean.github.io/rss.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
+  <lastmod>2016-02-16T06:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://wean.github.io/sitemap.xml</loc>
-  <lastmod>2016-02-02T07:57:00Z</lastmod>
+  <lastmod>2016-02-16T06:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>
