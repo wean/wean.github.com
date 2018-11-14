@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Wean C"  # (translatable)
 BLOG_TITLE = "Wean"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://wean.github.io/"
+SITE_URL = "https://www.chenzw.work/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://wean.github.io/"
@@ -403,11 +403,11 @@ REDIRECTIONS = []
 # to `nikola deploy`.  If no arguments are specified, a preset
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
-# DEPLOY_COMMANDS = {
-#     'default': [
-#         "rsync -rav --delete output/ joe@my.site:/srv/www/site",
-#     ]
-# }
+DEPLOY_COMMANDS = {
+     'default': [
+         "rsync -rav output/ root@www.chenzw.work:/var/www/html",
+     ]
+}
 
 # For user.github.io OR organization.github.io pages, the DEPLOY branch
 # MUST be 'master', and 'gh-pages' for other repositories.
