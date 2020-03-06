@@ -651,7 +651,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = '&copy; {date}         <a href="mailto:{email}">{author}</a> {license}<a href="http://www.beian.miit.gov.cn">苏ICP备18021158号-1</a>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -907,7 +907,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+#BODY_END = "<a href='http://www.beian.miit.gov.cn'>苏ICP备18021158号-1</a>"
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
